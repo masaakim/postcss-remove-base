@@ -1,18 +1,24 @@
 {
   "name": "postcss-remove-base",
   "version": "0.0.1",
-  "description": "remove rules that have `@base` annotation",
+  "description": "Remove rules that have `@base` annotation",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "test": "tape test.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/morishitter/postcss-remove-base/git"
   },
-  "keywords": ["postcss-plugin","atcss"],
+  "keywords": [
+    "postcss-plugin",
+    "atcss"
+  ],
   "author": "Masaaki Morishita",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "postcss": "^4.1.9",
+    "tape": "^4.0.0"
+  }
 }

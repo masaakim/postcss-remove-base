@@ -1,0 +1,15 @@
+.base {
+    /**
+     * @base
+     */
+    color: red;
+}
+
+.base2 {
+    /* @base */
+    font-size: 12px;
+}
+
+.class {
+    padding: 10px;
+}
