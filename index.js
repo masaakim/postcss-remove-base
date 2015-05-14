@@ -1,7 +1,7 @@
 module.exports = function plugin () {
     return function (root) {
         root.each(function (rule) {
-            if (checkBase(rule)) rule.removeSelf()
+            if (checkBase(rule) && !rule.change) rule.removeSelf()
         })
     }
 }
