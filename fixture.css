@@ -5,9 +5,15 @@
     color: red;
 }
 
-.base2 {
-    /* @base */
-    font-size: 12px;
+@media (min-width: 480px) {
+    .class {
+        padding: 5px;
+    }
+
+    .base-in-media-query {
+        /* @base */
+        font-size: 12px;
+    }
 }
 
 .class {

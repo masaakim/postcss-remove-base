@@ -1,0 +1,9 @@
+@media (min-width: 480px) {
+    .class {
+        padding: 5px;
+    }
+}
+
+.class {
+    padding: 10px;
+}
