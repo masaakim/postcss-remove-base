@@ -1,6 +1,6 @@
 {
   "name": "postcss-remove-base",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Remove rules that have `@base` annotation",
   "main": "index.js",
   "scripts": {
